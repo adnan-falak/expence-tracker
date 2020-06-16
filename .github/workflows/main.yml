@@ -39,4 +39,4 @@ jobs:
      
     # Deploy Surge
     - name: Run Surge
-      run: surge ./ adnanfalak-expense-tracker-app.surge.sh  --token ${{secrets.EXPENSE_TRACKER}}
+      run: surge ./build adnanfalak-expense-tracker-app.surge.sh  --token ${{secrets.EXPENSE_TRACKER}}
